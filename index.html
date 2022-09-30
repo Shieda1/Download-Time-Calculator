@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Download Time Calculator</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <!-- radio -->
+  <input type="radio" id="downloadtimeRadio" name="variables" checked>
+  <label for="downloadtimeRadio">Download time</label>
+
+  <input type="radio" id="filesizeRadio" name="variables">
+  <label for="filesizeRadio">File size</label>
+
+  <input type="radio" id="downloadspeedRadio" name="variables">
+  <label for="downloadspeedRadio">Download speed</label><br><br>
+  <!-- end radio -->
+  
+  <label for="v1" id="variable1">File size</label>
+  <input type="number" id="v1"><br><br>
+  
+  <label for="v2" id="variable2">Download speed</label>
+  <input type="number" id="v2"><br><br>
+
+  <button id="btn">compute</button>
+
+  <p id="result"></p>
+  <script src="app.js"></script>
+</body>
+</html>
